@@ -1,19 +1,18 @@
-import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import MainContent from './MainContent';
+import React from "react";
+import Footer from "./Footer";
+import MainContent from "./MainContent";
 
-function Content(){
-    return(
-        <React.Fragment>
-        <div id="content-wrapper" className="d-flex flex-column">
-            <div id="content">
-             <MainContent/>
-             <Footer/>
-             </div>
+function Content() {
+  return (
+    <React.Fragment>
+      <div id="content-wrapper" className="d-flex flex-column">
+        <div id="content">
+          <MainContent />
+          <Footer />
         </div>
-        </React.Fragment>
-    )
+      </div>
+    </React.Fragment>
+  );
 }
 
 export default Content;

@@ -1,14 +1,12 @@
-import React from 'react';
-import SideBar from './SideBar';
-import Content from './Content';
+import React from "react";
+import Content from "./Content";
 
-
-function App(){
-  return(
+function App() {
+  return (
     <div id="wrapper">
-      <Content/>
+      <Content />
     </div>
-  )
+  );
 }
 
 export default App;
